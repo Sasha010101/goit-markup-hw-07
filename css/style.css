@@ -737,17 +737,30 @@ margin:0px
 
 
 .team-list {
+
+
+}
+
+
+
+@media screen and (min-width:768px) {
+.team-list{
+
+}
+    
+}
+
+@media screen and (min-width:1200px) {
+.team-list {
 display: flex;
 column-gap: 24px;
 margin-top: 72px;
+}
 
-
-
-
-
+}
 
  
-}
+
 
 .team-item {
 
