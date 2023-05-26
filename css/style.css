@@ -36,7 +36,7 @@ text-decoration: none;
 
 .container {
 min-width: 320px;
-max-width: 480px;
+max-width: 428px;
 padding-left: 16px;
 padding-right: 16px;
 margin-left: auto;
@@ -403,6 +403,7 @@ display: flex;
        width: 736px;
        justify-content: center;
        align-items: center;
+       margin-right: 0;
        
         
     
@@ -431,7 +432,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 396px;
-margin-bottom: 72px;
+
+
 }
 
 @media screen and (min-width:768px) {
@@ -439,7 +441,9 @@ margin-bottom: 72px;
 display: flex;
 width: 356px;
 flex-wrap: wrap;
-padding-bottom: 96px;
+
+
+
 }
 }
 
@@ -518,6 +522,7 @@ font-weight:500;
 margin: 0;
 color: var(--secondary-txt-cl);
 font-weight: 500;
+margin-bottom: 72px;
 
 }
 
@@ -526,6 +531,7 @@ font-weight: 500;
 @media screen and (min-width:1200px) {
     .strategy-text {
 font-weight: 400;
+margin: 0;
     }
 
 }
@@ -554,11 +560,13 @@ font-weight: 500;
 margin: 0;
 color: var(--secondary-txt-cl);
 font-weight: 500;
+margin-bottom: 72px;
 
 }
 @media screen and (min-width:1200px) {
     .punctuality-text {
         font-weight: 400;
+        margin: 0;
     }
 }
 .diligence-title {
@@ -588,12 +596,18 @@ font-weight: 500;
 margin: 0;
 font-weight: 500;
 color: var(--secondary-txt-cl);
-
-
+margin-bottom: 72px;
 }
+@media screen and (min-width:768px) {
+    .diligence-text{
+        margin: 0;
+    }
+}
+
 @media screen and (min-width:1200px) {
 .diligence-text {
 font-weight: 400;
+margin: 0;
     }
 }
 
@@ -713,14 +727,8 @@ margin-top: 72px;
     padding-top: 120px;
     background-color: #F4F4FD;
     padding-bottom: 120px;
-    
-    
-
-   
-    
-    
-
 }
+
 
 .our-team-title {
 font-weight: 700;
@@ -728,7 +736,9 @@ font-size: 36px;
 line-height: calc(40 / 36);
 color: var(--primary-txt-cl);
 text-align: center;
-margin:0px
+margin: 0;
+margin-bottom: 72px;
+
 
 
 
@@ -740,6 +750,8 @@ margin:0px
 
 
 .team-list {
+   
+
 
 
 }
@@ -748,6 +760,9 @@ margin:0px
 
 @media screen and (min-width:768px) {
 .team-list{
+    display: flex;
+    flex-direction: column;
+  
 
 }
     
@@ -766,12 +781,23 @@ margin-top: 72px;
 
 
 .team-item {
-
+display: flex;
+margin-bottom: 72px;
+justify-content: center;
+align-items: center;
 
 }
+
+@media screen and (min-width:768px) {
+.team-item{
+    
+}
+}
+
 .team-img{
 display: block;
 }
+
 
 .team-name {
 display: flex;
@@ -817,7 +843,7 @@ gap: 24px;
 margin: 0;
 justify-content: center;
 align-items: center;
-padding: 0 16px 32px 16px;
+padding: 0px 16px 0px 16px;
    
 }
     
