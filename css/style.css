@@ -753,16 +753,16 @@ margin-bottom: 72px;
    
 
 
-
 }
 
 
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
 .team-list{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
   
+
 
 }
     
@@ -771,6 +771,7 @@ margin-bottom: 72px;
 @media screen and (min-width:1200px) {
 .team-list {
 display: flex;
+
 column-gap: 24px;
 margin-top: 72px;
 }
@@ -780,18 +781,23 @@ margin-top: 72px;
  
 
 
-.team-item {
+.team-item{
 display: flex;
-margin-bottom: 72px;
 justify-content: center;
 align-items: center;
-
 }
 
 @media screen and (min-width:768px) {
 .team-item{
     
 }
+}
+@media screen and (min-width:1200px) {
+    .team-item{
+        
+       
+    }
+    
 }
 
 .team-img{
