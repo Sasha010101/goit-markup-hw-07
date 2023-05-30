@@ -730,6 +730,7 @@ margin-top: 72px;
 }
 
 
+
 .our-team-title {
 font-weight: 700;
 font-size: 36px;
@@ -757,10 +758,16 @@ margin-bottom: 72px;
 
 
 
-@media screen and (max-width:768px) {
-.team-list{
-display: flex;
-flex-direction: column;
+@media screen and (min-width:768px) {
+.team-list {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    width: 552px;
+
+    
+
+
   
 
 
@@ -771,7 +778,6 @@ flex-direction: column;
 @media screen and (min-width:1200px) {
 .team-list {
 display: flex;
-
 column-gap: 24px;
 margin-top: 72px;
 }
@@ -789,6 +795,7 @@ align-items: center;
 
 @media screen and (min-width:768px) {
 .team-item{
+    
     
 }
 }
@@ -903,10 +910,29 @@ letter-spacing: 0.02em;
 }
 
 .customers{
-display: flex;
-gap: 24px;
-}
+    display: flex;
+    width: 396px;
+    flex-wrap: wrap;
+    gap: 16px;
 
+
+}
+@media screen and (min-width:768px) {
+    .customers{
+width: 552px;
+gap: 24px;
+
+
+    }
+    
+}
+@media screen and (min-width:1200px ) {
+    .customers {
+        display: flex;
+            gap: 24px;
+    }
+
+}
 
 
 .customers-item{
