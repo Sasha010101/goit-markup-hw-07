@@ -930,6 +930,7 @@ gap: 24px;
     .customers {
         display: flex;
             gap: 24px;
+            width: 1128px;
     }
 
 }
