@@ -971,6 +971,9 @@ color: #404BBF;
    
 display: flex;
 flex-direction: column;
+justify-content: center;
+    align-items: center;
+    width: 552px;
 
 }   
     
@@ -997,9 +1000,8 @@ padding-top: 100px;
 
 display: flex;
 flex-direction: column;
-align-items: center;
-justify-content: center;
 margin-right: 120px;
+
 }
 
 
@@ -1012,6 +1014,8 @@ line-height: calc(21 / 18);
 color: #4D5AE5;
 display: flex;
 margin-bottom: 16px;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -1027,6 +1031,8 @@ color: #E7E9FC;
 width: 264px;
 height: 72px;
 margin: 0px;
+display: flex;
+justify-content: center;
 
 }
 
