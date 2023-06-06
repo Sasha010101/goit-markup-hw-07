@@ -203,6 +203,7 @@ background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images-hw-4/hero-image-bgn/people-office\ 1.png);
 background-repeat: no-repeat;
 background-position: center;
+
 }
 
 
@@ -727,7 +728,7 @@ margin-top: 72px;
 background-color: #F4F4FD;
 padding-top: 96px;
 padding-bottom: 96px;
-    
+    width: 100%;
 }
 @media screen and (min-width:1200px) {
     .our-team{
@@ -965,56 +966,55 @@ fill: currentColor;}
 border-color: #404BBF;
 color: #404BBF;
 }
-@media screen and (max-width:767px) {
+
+
     .footer-container{
-       
-
     }
-
     
+
+
+.footer{
+padding-bottom: 96px;
+padding-top: 96px;
+background-color: #2E2F42;
+width: 100%;
+
+
 }
 
-@media screen and (min-width:768px) {
- .footer-container {
-   
-
-   
-
-}   
-    
-}
 
 @media screen and (min-width:1200px) {
-    .footer-container{
-        display: flex;
-    }
-    
-}
+  .footer {
 
-
-.footer {
-background-color: #2E2F42;
 padding-bottom: 100px;
 padding-top: 100px;
-
-
-
-
+}  
 }
 
-    
+
+@media screen and (max-width:767px) {
 .first-footer{
-
 display: flex;
-
 margin-right: 120px;
  display: flex;
 flex-direction: column;
 justify-content: center;
  align-items: center;
 width: 428px;
+}  
+        
+    }
+
+@media screen and (min-width:768px) {
+.first-footer{
+margin-right: 24px;
+width: 768px;
+    }
+    
 }
 
+
+    
 
 .footer-logo-link {
 font-family: "Raleway";
@@ -1029,6 +1029,13 @@ justify-content: center;
 align-items: center;
 
 }
+@media screen and (min-width:768px) {
+    .footer-logo-link{
+display: inline-flex;
+    }
+    
+}
+
 
 
 .colortext-footer {
