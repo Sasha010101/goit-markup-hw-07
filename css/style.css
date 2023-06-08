@@ -728,7 +728,7 @@ margin-top: 72px;
 background-color: #F4F4FD;
 padding-top: 96px;
 padding-bottom: 96px;
-    width: 100%;
+
 }
 @media screen and (min-width:1200px) {
     .our-team{
@@ -908,7 +908,6 @@ letter-spacing: 0.02em;
 
 .customers{
     display: flex;
-    width: 396px;
     flex-wrap: wrap;
     gap: 16px;
     row-gap: 72px;
