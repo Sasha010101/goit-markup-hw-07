@@ -1746,14 +1746,14 @@ padding: 0;
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vw;
-    z-index: 999;
-    background-color: white;
+    height: 100vh;
+    padding: 32px;
+    background-color: #3f51b5;
+    z-index: 999; 
+    padding: 80px 35px 40px 40px;
+
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
-    
-   
-    
 }
 
 .menu-container.is-open {
@@ -1765,122 +1765,55 @@ padding: 0;
     top: 16px;
     right: 16px;
     color: #fff;
-   
-   
-   
 }
 
 .mobile-menu {
     padding: 0;
     margin: 0;
     list-style: none;
-    
-    
-    
-}
-    
+    margin-bottom: auto;
+    font-size: 36px;
+    line-height: calc( 40 / 36 );
+    width: 700px;
+    color: black;
    
+}
 
 .mobile-menu .link {
-
     display: block;
     padding: 10px;
     color: #fff;
     text-decoration: none;
-}
-/* Mobile-menu */ 
-.mobile-menu-header {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-padding: 80px 35px 40px 40px;
-width: 496px;
-min-height: 796px;
-  
-  
-  
- 
-
-}
-
-.list {
+} 
+.mobile-contacts {
+    margin-bottom: 40px;
    
-  
+    
+    
 }
-
-.link-mobile-menu {
-
-text-decoration: none; 
- font-weight: 700;
-font-size: 36px;
-line-height: 40;
-line-height: calc(40 / 36);
-letter-spacing: 0.02em;
-color: #2E2F42;
-
-   
+.menu-contacts{
+    display: f;
+    gap: 40px
+    ;
 }
-.link-mobile-menu:hover,
-.link-mobile-menu:focus {
-    color:var(--icon-ocean-cl);
-}
-
-
-
-.header-link-menu{
-margin-bottom: 48px;
-
-
-}
-
-.
-.header-mobile-contacts {
-    display: block;
-    font-weight: 700;
+.menu-mobile-contacts{
     font-size: 36px;
-    line-height: 40;
-    line-height: calc(40 / 36);
-    letter-spacing: 0.02em;
+    line-height: calc( 40 / 36);
     color: #434455;
-   margin-bottom: 40px;
+    width: 700px;
+   
     
-    
-    
+
 }
-
-.header-contact-mobile:hover,
-.header-contact-mobile:focus {
-    color: var(--accent-txt-cl);
-}
-
-
-
-.header-mail-mobile {
-    display: block;
-font-size: 20px;
-line-height: 24;
-line-height: calc(24 / 20);
-letter-spacing: 0.02em;
+.menu-mobile-mail{
 color: #434455;
-
-
-}
-.header-mail-mobile:hover,
-.header-mail-mobile:focus{
-    color:var(--accent-txt-cl);
+font-size: 20;
+line-height: calc( 24 / 20);
+letter-spacing: 0.02em;
 }
 
-
-
-.socials-mobile {
-    display: flex;
-    gap: 56px;
-    
+.mobile-socials{
+   display: flex;
+   gap: 40px;
+   
 }
-
-.social-item {
-}
-
-.social-link {}
-
-.team-icon {}
