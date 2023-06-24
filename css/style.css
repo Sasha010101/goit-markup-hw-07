@@ -369,9 +369,9 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-width: 408px;
+width: 392px;
 min-height: 584px;
-padding: 72px 24px 24px 24px;
+padding: 72px 16px 24px 16px;
 
 background-color: var(--icon-modal-cl);
 box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px, rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.14) 0px 1px 1px;
@@ -384,6 +384,14 @@ transition: transform 150ms ease, opacity 150ms ease;
 transform: translate(-50%, -70%);
 opacity: 0;
 }
+@media screen and (min-width:768px) {
+    .modal{
+width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+    }
+}
+
 
 .modal-icon{
 
