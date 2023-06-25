@@ -82,8 +82,18 @@ border-bottom: 1px solid#E7E9FC;
 padding-top: 24px;
 padding-bottom: 24px;
 }
-.nav-logo{
-    margin-right: auto;
+@media screen and (max-width:767px) {
+.nav-logo {
+margin-right: auto;
+}
+}
+
+
+
+@media screen and (min-width:768px) {
+    .nav-logo {
+        margin-right: auto;
+    }
 
 }
 
@@ -100,7 +110,7 @@ color: var(--accent-txt-cl);
 }
 @media screen and (min-width:768px) {
     .header-logo{
-         margin-right: 120px ;
+      
     }
     
 }
@@ -110,9 +120,10 @@ align-items: center;
 
     
 }
-@media screen and (min-width:767px) {
+@media screen and (min-width:768px) {
     .header-container {
-       min-width: 736px;
+min-width: 767px;
+     
      
     }
 
@@ -145,20 +156,27 @@ display: flex;
 align-items: center;
 gap: 40px;
 }
+
 @media screen and (min-width:768px) {
     .header-list{
-     
+        display: flex;
+
+    
+    
     }
 }
+
+
 @media screen and (max-width:767px) {
     .header-contacts {
         display: none;
     }
 
 }
+
+
    @media screen and (min-width:1200px) {
     .header-contacts{
-display: flex;
 align-items: center;
 gap: 40px;
 }
@@ -235,20 +253,103 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .main {
 
 }
+@media screen and (max-width:428px) {
+  .hero {
+   text-align: center;
+            padding: 112px 0;
+            max-width: 428px;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #2E2F42;
+        background-repeat: no-repeat;
+            background-position: center;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+url(../images-ratio-photo/adaptive-phone/dark-bg.jpg);
 
-.hero {
-text-align: center;
-padding: 188px 0;
-max-width: 1440px;
-margin-right: auto;
-margin-left: auto;
-background-color: #2E2F42;
-background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-url(../images-hw-4/hero-image-bgn/people-office\ 1.png);
-background-repeat: no-repeat;
-background-position: center;
-
+}  
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero{
+        text-align: center;
+            padding: 112px 0;
+            max-width: 428px;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #2E2F42;
+            background-repeat: no-repeat;
+            background-position: center;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images-ratio-photo/bg-ratiox2/bg-molile@2x.jpg);
+    }
 }
+}
+
+@media screen and (min-width:429px) and (max-width:768px) {
+    .hero{
+        text-align: center;
+            padding: 112px 0;
+            max-width: 428px;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #2E2F42;
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 767px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images-ratio-photo/adaptive-tab/dark-bg.jpg);
+
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                text-align: center;
+                    padding: 112px 0;
+                    max-width: 428px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    background-color: #2E2F42;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    max-width: 767px;
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images-ratio-photo/bg-ratiox2/bg-tab@2x.jpg);
+            }
+        }
+}
+@media screen and (min-width:769px) {
+    .hero{
+     
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images-hw-4/hero-image-bgn/people-office\ 1.png);
+            text-align: center;
+                padding: 188px 0;
+                max-width: 1440px;
+                margin-right: auto;
+                margin-left: auto;
+                background-color: #2E2F42;
+                background-repeat: no-repeat;
+                background-position: center;
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                text-align: center;
+                    padding: 188px 0;
+                    max-width: 1440px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    background-color: #2E2F42;
+                    background-repeat: no-repeat;
+                    background-position: center;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images-ratio-photo/bg-ratiox2/bg-desk@2x.jpg);
+            }
+        }
+}
+
 
 
 .hero-title {
@@ -1862,7 +1963,7 @@ display: flex;
 
 }
 .menu-mobile-mail{
-font-size: 20;
+font-size: 20px;
 line-height: calc( 24 / 20);
 letter-spacing: 0.02em;
 }
