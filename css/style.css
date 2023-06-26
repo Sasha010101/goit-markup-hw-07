@@ -79,8 +79,7 @@ padding: 0;
 .header {
 display: block;
 border-bottom: 1px solid#E7E9FC;
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 @media screen and (max-width:767px) {
 .nav-logo {
@@ -92,7 +91,8 @@ margin-right: auto;
 
 @media screen and (min-width:768px) {
     .nav-logo {
-      
+    padding-top: 24px;
+        padding-bottom: 24px;
     }
 
 }
@@ -213,7 +213,7 @@ gap: 40px;
 .header-link.current::after{
 content: '';
 position: absolute;
- bottom: 0;
+bottom: 0;
 display: block;
 width: 100%;
 height: 4px;
@@ -1956,6 +1956,8 @@ padding: 0;
 background-color: #FFFFFF;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
+
+    
  
 }
 
@@ -1984,6 +1986,8 @@ background-color: #FFFFFF;
     line-height: calc( 40 / 36 );
     width: 700px;
     color: black;
+   
+    
    
 }
 .menu-button{
@@ -2052,6 +2056,9 @@ letter-spacing: 0.02em;
    margin: 0;
    width: 40px;
    height: 40px;
-   width: 100%;
+  
+    
+
+  
    
 }
