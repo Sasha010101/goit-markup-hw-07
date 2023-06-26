@@ -249,6 +249,8 @@ color:var(--accent-txt-cl);
 .header-mail{
 color: var(--primary-txt-cl);
 ;
+font-size: 12px;
+line-height: calc(14 / 12);
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -261,7 +263,8 @@ color: var(--accent-txt-cl);
 
 .header-contact {
 color: var(--primary-txt-cl);
-
+font-size: 12px;
+line-height: calc( 14 / 12 );
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -828,16 +831,19 @@ font-weight: 400;
 
 
 
-
-.wawd{
+@media screen and (max-width:1199px) {
+    .wawd{
 display: none;
 
 }
+}
+
 
     @media screen and (min-width:1200px) {
         .wawd{
-    display: inline;
-     padding-bottom: 120px;
+          padding-bottom: 120px;   
+   
+    
         }
     }
    
@@ -911,7 +917,7 @@ padding-bottom: 96px;
 @media screen and (min-width:1200px) {
 .our-team{
 padding-top: 120px; 
-    
+    padding-bottom: 120px;
 }
 }
 
